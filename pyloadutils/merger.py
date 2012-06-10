@@ -3,7 +3,7 @@
 import re
 import sys
 
-from pyload import PyloadConnection
+from pyloadutils.pyload import PyloadConnection
 
 def main():
     con = PyloadConnection()
