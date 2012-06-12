@@ -24,7 +24,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'pyload_merge = pyloadutils.merge:main',
+            'pyload_merge = pyloadutils.merger:main',
             'pyload_restart = pyloadutils.restart:main',
             ],
         },
