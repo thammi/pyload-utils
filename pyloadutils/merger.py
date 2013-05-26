@@ -43,7 +43,7 @@ def main():
         else:
             del bags[key]
 
-    for key, packages in list(bags.items()):
+    for key, packages in sorted(bags.items()):
         print(key)
 
         for package in packages:
