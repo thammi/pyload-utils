@@ -18,6 +18,7 @@ setup(
     description = ("Some usefull utilities for the pyload download manager"),
     license = "GPLv3",
     keywords = "pyload",
+    url = "https://github.com/thammi/pyload-utils",
     packages=['pyloadutils'],
     long_description=read('README.md'),
     classifiers=[
