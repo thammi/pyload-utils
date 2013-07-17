@@ -12,7 +12,7 @@ def read(fname):
 
 setup(
     name = "pyload_utils",
-    version = "0.1.0",
+    version = "0.1.1",
     author = "Thammi",
     author_email = "thammi@chaossource.net",
     description = ("Some usefull utilities for the pyload download manager"),
@@ -22,6 +22,9 @@ setup(
     packages=['pyloadutils'],
     long_description=read('README.md'),
     classifiers=[
+        "Programming Language :: Python :: 3",
+        "Environment :: Console",
+        "License :: OSI Approved :: GNU General Public License (GPL)",
     ],
     entry_points={
         'console_scripts': [
